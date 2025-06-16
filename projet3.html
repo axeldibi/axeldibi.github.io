@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projet TER – Graphes de connaissance &amp; Analyse prédictive</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <!-- SECTION DÉTAILLÉE PROJET 3 -->
+    <section class="section">
+      <h2 class="section-title">Projet TER – Graphes de connaissance &amp; Analyse prédictive</h2>
+      <hr class="section-line">
+
+      <p class="text-normal">
+        Ce projet constitue le Travail d’Étude et de Recherche réalisé par mon groupe. Nous avons exploré l’intérêt des graphes de connaissances combinés aux grands modèles de langage et aux réseaux de neurones graphiques pour améliorer la gestion actuarielle des risques.
+      </p>
+
+      <h3 class="subsection-title">Construction du Knowledge Graph</h3>
+      <hr class="section-line">
+      <p class="text-normal">
+        À partir des rapports d’enquête du NTSB sur les accidents routiers, nous avons d’abord construit un graphe de connaissances causal en extrayant automatiquement les événements et leurs relations.
+      </p>
+
+      <h3 class="subsection-title">Étude du provisionnement</h3>
+      <hr class="section-line">
+      <p class="text-normal">
+        Ensuite, nous avons étudié la faisabilité d’utiliser ce graphe pour le provisionnement : bien que les rapports NTSB ne contiennent pas d’informations financières ni d’historique complet de sinistres, nous avons identifié des indicateurs de gravité permettant de cibler les provisions pour sinistres déjà déclarés (RBNS), sans remplacer un provisionnement actuariel classique.
+      </p>
+
+      <h3 class="subsection-title">Modélisation prédictive GNN</h3>
+      <hr class="section-line">
+      <p class="text-normal">
+        Je me suis chargé de la partie modélisation prédictive :  
+        <ul class="project-bullets">
+          <li>Construction d’un graphe de similarité reliant les rapports selon leurs facteurs contributifs communs.</li>
+          <li>Entraînement d’un réseau de neurones graphique pour prédire la probabilité qu’une enquête mène à une recommandation de sécurité.</li>
+          <li>Détection rapide des dossiers critiques pour les assureurs et régulateurs, afin d’allouer les ressources et renforcer la sécurité de manière proactive.</li>
+        </ul>
+      </p>
+
+      <h3 class="subsection-title">Rapport complet et annexes</h3>
+      <hr class="section-line">
+      <p class="text-normal">
+        Le détail de notre travail d’équipe et les contributions de chacun sont décrits en annexe.  
+        <a href="https://raw.githubusercontent.com/axeldibi/axeldibi.github.io/main/plus/kg-for-reserving.pdf" download>Télécharger le rapport complet</a>
+      </p>
+
+      <h3 class="subsection-title">Réorientation et perspectives</h3>
+      <hr class="section-line">
+      <p class="text-normal">
+        À l’origine, notre ambition était de réaliser du provisionnement actuariel directement à partir du graphe de connaissance. Face à la complexité et au manque de données financières, nous avons réorienté l’étude vers la modélisation prédictive exploitant les graphes de similarité et les GNN, plus adaptée à nos données et réalisable dans les délais impartis.
+      </p>
+      <p class="text-normal">
+        Je prévois la publication prochaine d’un notebook amélioré intégrant la prédiction de liens sur le Knowledge Graph, pour inférer automatiquement les recommandations manquantes et révéler des associations cachées entre facteurs.
+      </p>
+
+      <p style="margin-top:20px;">
+        <a href="index.html#travaux" class="learn-more">&larr; Retour aux travaux</a>
+      </p>
+    </section>
+
+    <!-- PIED DE PAGE COMMUN -->
+    <footer class="site-footer">
+      <p>&copy; 2025 Axel Dibi</p>
+    </footer>
+
+  </div> <!-- /wrapper -->
+</body>
+</html>
